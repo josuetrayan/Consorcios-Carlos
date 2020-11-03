@@ -1,0 +1,35 @@
+
+.boton{
+    color: thistle;
+    border: solid 2px;
+    background: thistle;
+}
+.boton a{
+    color: thistle;
+    
+}
+
+.holamunndo{
+    color:red;
+}
+table{
+  background-color: red;  
+}
+td{
+    border:solid 1px black;
+    padding: 0px;
+  }
+
+  thead{
+      background-color:#246355;
+      border-bottom: solid 5px #0f362d;
+  }
+  tr:nth-child(even){
+      background-color: #ddd;
+  }
+  tr:hover{
+      background-color: #369681;
+      color:white;
+      
+  }
+ 

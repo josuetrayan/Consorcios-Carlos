@@ -1,0 +1,104 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+   background: url(/img/Menu/inicio.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: rgba(250, 250, 250, 0.5);
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #031736ec;
+    font-size: 45px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 92%;
+    padding: 10px;
+    border: none;
+    background: #ffffffd3;
+    
+}
+.input-contenedor {
+    margin-bottom: 15px;
+    
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: rgb(255, 254, 254);
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #131c2b;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button:hover{
+    background: rgb(1, 36, 37);
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color:  rgb(1, 36, 37);
+    font-weight: 600;
+}
+
+
+.link:hover{
+     color: rgb(3, 81, 83);
+}
+@media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
