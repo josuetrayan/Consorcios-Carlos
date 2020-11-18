@@ -2,6 +2,10 @@
     font-family: 'miFuente';
     src: url(../fuentes/LibreCaslonDisplay-Regular.ttf);
   }
+  @font-face {
+    font-family: 'expensa';
+    src: url(../fuentes/Anton-Regular.ttf);
+  }
   
   @font-face {
     font-family: 'miFuente2';
@@ -1520,7 +1524,27 @@
   
   /*-----------------------------------------
    FOOTER
-  ------------------------------------------*/
+  ----------
+  
+ 
+
+
+  
+  --------------------------------*/
+  
+  .expensa{
+    font-size: 2.5rem;
+    font-family: "expensa";
+    margin-bottom: 2.5rem;
+  }
+.mesExpensa{
+font-size: 1.6rem;
+
+}
+.mesExpensas{
+  font-size: 1.6rem;
+  }
+  
   
   .ft ul {
     margin: 0;

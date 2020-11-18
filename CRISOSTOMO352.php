@@ -43,10 +43,10 @@ if (isset($_POST['subir'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos</title>
+    <title>CRISOSTOMO 352</title>
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilosindex.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -68,162 +68,7 @@ if (isset($_POST['subir'])) {
     </head>
 
     <body>
-        <div style="width: 500px;margin: auto;border: 1px solid blue;padding: 30px;">
-            <h4>Subir PDF</h4>
-            <form method="post" action="" enctype="multipart/form-data">
-                <table>
-                    <tr>
-                        <td><label>Mes</label></td>
-                        <td><input type="text" name="titulo"></td>
-                        <label>Nombre de edificio</label></td>
-                        <select name="edificiosList" id="">
-                            <option value="24septiembre304">24 de septiembre 304</option>
-                            <option value="2deabril380">2 de abril 380</option>
-                            <option value="25mayo30">25 MAYO 30</option>
-                            <option value="25mayo312">25 mayo 312</option>
-                            <option value="alem146-150">alem 146-150</option>
-                            <option value="balcarce179">balcarce 179 </option>
-                            <option value="balcarce670">balcarce 670 </option>
-                            <option value="belgrano3406">belgrano 3406</option>
-                            <option value="catamarca655">catamarca 655</option>
-                            <option value="congresales">congresales</option>
-                            <option value="congreso850">congreso 850 </option>
-                            <option value="corrientes961">corrientes 961 </option>
-                            <option value="crisostomo352">crisostomo 352 </option>
-                            <option value="ejercitoymendoza">ejercito y mendoza</option>
-                            <option value="entrerios63">entre rios 63 </option>
-                            <option value="entrerios167">entrerios 167 </option>
-                            <option value="gobernadorcampo">gobernador campo </option>
-                            <option value="gonzalo">gonzalo </option>
-                            <option value="jade">jade </option>
-                            <option value="lamadrid910">lamadrid 910 </option>
-                            <option value="laprida1255">laprida1255 </option>
-                            <option value="laspiedras297">laspiedras 297 </option>
-                            <option value="lavalle84">lavalle 84 </option>
-                            <option value="mendoza480">mendoza 480 </option>
-                            <option value="mendoza1053">mendoza 1053 </option>
-                            <option value="monteagudo731">monteagudo 731 </option>
-                            <option value="monteagudo511">monteagudo 511 </option>
-                            <option value="muñeca458">muñeca 458 </option>
-                            <option value="pjesantillan936">pje santillan 936 </option>
-                            <option value="sanjuan649">san juan 649 </option>
-                            <option value="sanlorenzoyheras">san lorenzo y heras </option>
-                            <option value="santiago48">santiago 48 </option>
-                            <option value="santiago671">santiago 671</option>
-                            
-
-
-
-
-                        </select>
-                    </tr>
-                    <tr>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="file" name="archivo"></td>
-                    <tr>
-                        <td>
-                        <td><input type="submit" value="subir" name="subir"></td>
-
-                    </tr>
-                </table>
-            </form>
-        </div>
-
-        <!-- tabla  -->
-       
-
-
-            <!-- cabecera para editar -->
-            <div class="tablaexpensa text-center py-5 mb-5">
-                
-                <table>
-
-
-            </div>
-            <h2 class="titulo6-SobreNosotros">ADMIN</h2>
-            <thead>
-                <tr>
-                    <th>Mes de la Expensa</th>
-                    <th>Expensa</th>
-                </tr>
-            </thead>
-
-            <?php
-       
-        $db=new Conect_MySql();
-            $sql = "select*from $edificioList";
-            $query = $db->execute($sql);
-            while($datos=$db->fetch_row($query)){?>
-            <tr>
-                <td class="list"><?php echo $datos['titulo']; ?></td>
-                <!-- ingresa el nombre de la pagina del edificio -->
-                <!-- ingresa nombre_archivo para que parezaca el nombre -->
-                <td class="holamunndo"><a
-                        href="admin.php?id=<?php echo $datos['id_documento']?>"><?php echo $datos['nombre_archivo']; ?></a>
-                </td>
-            </tr>
-
-            <?php  } ?>
-
-        </table>
-
-        <!-- indice -->
-
-        <h2>Expensas del Mes junio</h2>
-        <?php
-      
-        $db=new Conect_MySql();
-        // ingresa el nombre de la tabla del esdificio
-            $sql = "select*from $edificioList where id_documento=".$_GET['id'];
-            $query = $db->execute($sql);
-            if($datos=$db->fetch_row($query)){
-
-
-
-                if($datos['nombre_archivo']==""){?>
-        <p>NO tiene archivos</p>
-        <?php }else{ ?>
-        <iframe width="100%" height="600px" src="archivos/<?php echo $datos['nombre_archivo']; ?>"></iframe>
-
-
-        <?php } } ?>
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+     
         <!---------------------------------------------
         Seccion Navbar
          
@@ -362,7 +207,7 @@ if (isset($_POST['subir'])) {
                     <div class="Tarjeta-Presentacion d-md-flex mr-5 ml-5 my-5 mt-5 ">
 
                         <div id="Contenedor-Foto-Presentacion" class="col-sm-12 col-md-6 mr-0 ml-0  text-left ">
-                            <img class="Foto-Presentacion " src="img/portada.jpg" alt="">
+                        <img class="Foto-Presentacion" src="img/Carlos/portada-administrador.jpeg" alt="">
                         </div>
 
                         <div class="col-sm-12 col-md-6  ">
@@ -380,6 +225,56 @@ if (isset($_POST['subir'])) {
             </div>
 
         </Section>
+
+
+               <!-- tabla  -->
+               <div class="tablaexpensa text-center py-5 mb-5">
+                <table>
+            </div>
+            <h2 class="expensa">Presione para Visualizar la Expensa de la crisostomo 352 </h2>
+            <thead>
+                <tr>
+                    <th class="mesExpensa" >Mes de la Expensa</th>
+                    <th class="mesExpensas">Expensa</th>
+                </tr>
+            </thead>
+            <?php
+        $db=new Conect_MySql();
+            $sql = "select*from crisostomo352";
+            $query = $db->execute($sql);
+            while($datos=$db->fetch_row($query)){?>
+            <tr>
+                <td class="list"><?php echo $datos['titulo']; ?></td>
+                <!-- ingresa el nombre de la pagina del edificio -->
+                <!-- ingresa nombre_archivo para que parezaca el nombre -->
+                <td class="holamunndo"><a
+                        href="CRISOSTOMO352.php?id=<?php echo $datos['id_documento']?>"><?php echo $datos['nombre_archivo']; ?></a>
+                </td>
+            </tr>
+
+            <?php  } ?>
+
+        </table>
+
+        <!-- indice -->
+        <?php
+      
+        $db=new Conect_MySql();
+        // ingresa el nombre de la tabla del esdificio
+            $sql = "select*from crisostomo352 where id_documento=".$_GET['id'];
+            $query = $db->execute($sql);
+            if($datos=$db->fetch_row($query)){
+
+
+
+                if($datos['nombre_archivo']==""){?>
+        <p>NO tiene archivos</p>
+        <?php }else{ ?>
+        <iframe width="100%" height="600px" src="archivos/<?php echo $datos['nombre_archivo']; ?>"></iframe>
+
+
+        <?php } } ?>
+        </div>
 
 
         <!---------------------------------------------
@@ -433,7 +328,7 @@ if (isset($_POST['subir'])) {
 
         </section>
 
-
+<h2></h2>
 
 
 
@@ -586,7 +481,7 @@ if (isset($_POST['subir'])) {
                             <div class="item">
                                 <div class="col-12">
                                     <div class="empleado">
-                                        <div class="adelante card1"></div>
+                                        <div class="adelante card12"></div>
                                         <div class="atras card2"></div>
                                     </div>
                                     <h2 class="nombreTarjeta"> Carlos A. Trayan <span
@@ -601,9 +496,9 @@ if (isset($_POST['subir'])) {
                                         <div class="adelante card3"></div>
                                         <div class="atras card4"></div>
                                     </div>
-                                    <h3 class="nombreTarjeta">Victoria Ocaranza <br> <span
-                                            class="cargoTarjeta">Lic.Administracion de Empresas</span></h3>
-                                    <p></p>
+                                    <h3 class="nombreTarjeta">Jessica Daniel <br> <span
+                                        class="cargoTarjeta">Recepción</span></h3>
+                                <p></p>
                                 </div>
                             </div>
 
@@ -631,27 +526,17 @@ if (isset($_POST['subir'])) {
                                 </div>
                             </div>
                             <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante card9"></div>
-                                        <div class="atras card10"></div>
-                                    </div>
-                                    <h2 class="nombreTarjeta">Ortega C. Hector <br> <span
-                                            class="cargoTarjeta">Abogado</span></h2>
-                                    <p></p>
+                            <div class="col-12">
+                                <div class="empleado">
+                                    <div class="adelante card15"></div>
+                                    <div class="atras card20"></div>
                                 </div>
+                                <h2 class="nombreTarjeta">Dolores Garrocho <br> <span
+                                        class="cargoTarjeta">Contadora</span></h2>
+                                <p></p>
                             </div>
-                            <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante card9"></div>
-                                        <div class="atras card10"></div>
-                                    </div>
-                                    <h2 class="nombreTarjeta">Ortega C. Hector <br> <span
-                                            class="cargoTarjeta">Abogado</span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
+                        </div>
+                           
 
                         </div>
                     </div>

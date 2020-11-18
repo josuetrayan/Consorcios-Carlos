@@ -231,11 +231,11 @@ if (isset($_POST['subir'])) {
                <div class="tablaexpensa text-center py-5 mb-5">
                 <table>
             </div>
-            <h2 class="titulo6-SobreNosotros">Presione para Visulizar la Expenza Congreso 180</h2>
+            <h2 class="expensa">Presione para Visualizar la Expenza de la 24 de Septiembre</h2>
             <thead>
                 <tr>
-                    <th>Mes de la Expensa</th>
-                    <th>Expensa</th>
+                    <th class="mesExpensa" >Mes de la Expensa</th>
+                    <th class="mesExpensas">Expensa</th>
                 </tr>
             </thead>
             <?php
