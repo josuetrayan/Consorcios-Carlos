@@ -1165,7 +1165,7 @@ if (isset($_POST['subir'])) {
                     "%0A Edificio: %0A" + inputedificios + "  %0A%0AMensaje: %0A" + textmensaje + "%0A";
                 window.open(url);
 
-                $.post('prueba.php', {
+                $.post('./prueba.php', {
                     "empleado": titleWsp.value,
                     "name": inputnames,
                     "edificio": inputedificios,
