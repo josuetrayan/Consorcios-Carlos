@@ -26,16 +26,14 @@
 
     <nav id="Menu-Barra" class="navbar navbar-dark bg-secondary navbar-expand-md">
 
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menu-Principal"
-            aria-expanded="false" aria-label="Boton Menu">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menu-Principal" aria-expanded="false" aria-label="Boton Menu">
 
             <span class="Boton-Menu"></span>
 
         </button>
 
         <div class="logos">
-            <a href=""><img src="img/logo.png " alt="" class="logoPrincipal hidden-sm-down animated pulse infinite "
-                    style="animation-duration: 1s;"></a>
+            <a href=""><img src="img/logo.png " alt="" class="logoPrincipal hidden-sm-down animated pulse infinite " style="animation-duration: 1s;"></a>
         </div>
         <div class="BOTON order-md-2 ml-md-1">
             <a href="inciarSesion.php" class="btn btn-primary   mb-1 mt-0">Iniciar Sesion</a>
@@ -47,10 +45,8 @@
 
             <ul class="navbar-nav ml-auto  ">
 
-                <li class="nav-item page-scroll"> <a href="#Slider-Principal"
-                        class="nav-link active my-2 ml-md-1">Inicio</a></li>
-                <li class="nav-item page-scroll"> <a href="#tarjetadePresentacion" class="nav-link my-2 ml-md-1"
-                        ml-md-1>Sobre Nosotros</a></li>
+                <li class="nav-item page-scroll"> <a href="#Slider-Principal" class="nav-link active my-2 ml-md-1">Inicio</a></li>
+                <li class="nav-item page-scroll"> <a href="#tarjetadePresentacion" class="nav-link my-2 ml-md-1" ml-md-1>Sobre Nosotros</a></li>
                 <li class="nav-item"> <a href="#lts_sec" class="nav-link my-2 ml-md-1">Reconocimiento</a></li>
                 <li class="nav-item"> <a href="#proveedores" class="nav-link my-2 ml-md-1">Proveedores</a></li>
                 <li class="nav-item"> <a href="#" class="nav-link my-2 ml-md-1">Imprimir Curriculum</a></li>
@@ -70,18 +66,15 @@
     <section id="Slider-Principal" class="swiper-container ">
         <div class="swiper-wrapper">
 
-            <div class="swiper-slide d-flex justify-content-center "
-                style="background-image: url(img/slider_3.jpg); background-attachment: fixed; ">
+            <div class="swiper-slide d-flex justify-content-center " style="background-image: url(img/slider_3.jpg); background-attachment: fixed; ">
 
                 <div class="container">
                     <div class="row mt-5">
                         <div class="col-12 display-md-5">
-                            <H2 class="Letras-Grandes-Parte-1 display-4 animated bounceInLeft infinite"
-                                style="animation-duration: 8s;">Administración de Consorcios</H2>
+                            <H2 class="Letras-Grandes-Parte-1 display-4 animated bounceInLeft infinite" style="animation-duration: 8s;">Administración de Consorcios</H2>
                         </div>
                         <div class="col-12">
-                            <p class="Letras-Pequeñas-Parte-1 animated  bounceInUp  infinite "
-                                style="animation-duration: 8s;">¡CONTAMOS CON UN MECANISMO ESTRATEGICO DE TRABAJO!</p>
+                            <p class="Letras-Pequeñas-Parte-1 animated  bounceInUp  infinite " style="animation-duration: 8s;">¡CONTAMOS CON UN MECANISMO ESTRATEGICO DE TRABAJO!</p>
                         </div>
                     </div>
                 </div>
@@ -92,12 +85,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <H2 class="Letras-Grandes-Parte-2 animated bounceInRight infinite"
-                                style="animation-duration: 5s;">¡¡Ofrecemos un Servicio Profesional y Confiable!!</H2>
+                            <H2 class="Letras-Grandes-Parte-2 animated bounceInRight infinite" style="animation-duration: 5s;">¡¡Ofrecemos un Servicio Profesional y Confiable!!</H2>
                         </div>
                         <div class="col-12">
-                            <p class="Letras-Pequeñas-Parte-2  animated  fadeInUp infinite "
-                                style="animation-duration: 5s;"> Para todos nuestros Consorcios</p>
+                            <p class="Letras-Pequeñas-Parte-2  animated  fadeInUp infinite " style="animation-duration: 5s;"> Para todos nuestros Consorcios</p>
                         </div>
                     </div>
                 </div>
@@ -108,19 +99,15 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <a href=""><img src="img/logo.png " alt=""
-                                    class="logoSlider hidden-sm-down animated pulse infinite "
-                                    style="animation-duration: 1s;"></a>
+                            <a href=""><img src="img/logo.png " alt="" class="logoSlider hidden-sm-down animated pulse infinite " style="animation-duration: 1s;"></a>
                         </div>
 
 
                         <div class="col-12">
-                            <H2 class="Letras-Grandes-Parte-3 display-2 animated bounce  infinite"
-                                style="animation-duration: 8s;">CARLOS TRAYAN</H2>
+                            <H2 class="Letras-Grandes-Parte-3 display-2 animated bounce  infinite" style="animation-duration: 8s;">CARLOS TRAYAN</H2>
                         </div>
                         <div class="col-12">
-                            <p class="Letras-Pequeñas-Parte-3 animated flash  infinite "
-                                style="animation-duration: 8s;">¡¡Acompañado de un Excelente Equipo Profesional!!</p>
+                            <p class="Letras-Pequeñas-Parte-3 animated flash  infinite " style="animation-duration: 8s;">¡¡Acompañado de un Excelente Equipo Profesional!!</p>
                         </div>
                     </div>
                 </div>
@@ -210,8 +197,7 @@
                 <div class="col-lg-3 col-6 text-center">
                     <i id="recomendacion" class="fas fa-thumbs-up fa-5x"></i>
                     <div class="h2 text-center">
-                        <span class="counter" data-counterup-beginat="0"
-                            data-counterup-time="2000">100</span><span>%</span>
+                        <span class="counter" data-counterup-beginat="0" data-counterup-time="2000">100</span><span>%</span>
                     </div>
                     <h6 class="titulo6-SobreNosotros">Recomendaciones</h6>
                 </div>
@@ -364,8 +350,7 @@
                                     <div class="adelante card12"></div>
                                     <div class="atras card2"></div>
                                 </div>
-                                <h2 class="nombreTarjeta"> Carlos A. Trayan <span
-                                        class="cargoTarjeta text-center">Administrador</span></h2>
+                                <h2 class="nombreTarjeta"> Carlos A. Trayan <span class="cargoTarjeta text-center">Administrador</span></h2>
                                 <p></p>
                             </div>
                         </div>
@@ -376,8 +361,7 @@
                                     <div class="adelante card3"></div>
                                     <div class="atras card4"></div>
                                 </div>
-                                <h3 class="nombreTarjeta">Jessica Daniel <br> <span
-                                        class="cargoTarjeta">Recepción</span></h3>
+                                <h3 class="nombreTarjeta">Jessica Daniel <br> <span class="cargoTarjeta">Recepción</span></h3>
                                 <p></p>
                             </div>
                         </div>
@@ -399,8 +383,7 @@
                                     <div class="adelante card9"></div>
                                     <div class="atras card10"></div>
                                 </div>
-                                <h2 class="nombreTarjeta">Ortega C. Hector <br> <span
-                                        class="cargoTarjeta">Abogado</span></h2>
+                                <h2 class="nombreTarjeta">Ortega C. Hector <br> <span class="cargoTarjeta">Abogado</span></h2>
                                 <p></p>
                             </div>
                         </div>
@@ -410,12 +393,11 @@
                                     <div class="adelante card15"></div>
                                     <div class="atras card20"></div>
                                 </div>
-                                <h2 class="nombreTarjeta">Dolores Garrocho <br> <span
-                                        class="cargoTarjeta">Contadora</span></h2>
+                                <h2 class="nombreTarjeta">Dolores Garrocho <br> <span class="cargoTarjeta">Contadora</span></h2>
                                 <p></p>
                             </div>
                         </div>
-                    
+
                     </div>
                 </div>
             </div>
@@ -435,14 +417,12 @@
         <div class="container mt-5 mb-5">
             <div class="row mt-5 mb-5">
                 <div class="col-12 text-center mt-5">
-                    <div class="Contenedor-Ayuda"
-                        style=" background-image: url(img/Ayuda_4.jpg); background-attachment: fixed;">
+                    <div class="Contenedor-Ayuda" style=" background-image: url(img/Ayuda_4.jpg); background-attachment: fixed;">
 
                         <h2 class="Texto-Ayuda ">¿Como Podemos Ayudarte?</h2>
                         <p class="Parrafo-Ayuda">¡¡Por cualquier Consulta nos Puedes Mandar un Whatsapp Presionado el
                             Siguiente Boton!!</p>
-                        <a href="https://wa.me/5493816641412?text= Página Webº Realice su Consulta: " target="_blank"
-                            class="btn btn-secondary ">Mandar un Whatsapp</a>
+                        <a href="https://wa.me/5493816641412?text= Página Webº Realice su Consulta: " target="_blank" class="btn btn-secondary ">Mandar un Whatsapp</a>
                     </div>
                 </div>
             </div>
@@ -507,40 +487,35 @@
                         <div class="form-group form-row">
                             <label class="col-form-label col-12 col-md-3" for="nombre">Nombre:</label>
                             <div class="col-12 col-md-9">
-                                <input type="text" class="form-control" name="nombre" id="nombre"
-                                    placeholder="Ingrese su Nombre" required />
+                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required />
                             </div>
                         </div>
 
                         <div class="form-group form-row">
                             <label class="col-form-label col-12 col-md-3" for="edificio">Edificio:</label>
                             <div class="col-12 col-md-9">
-                                <input type="text" class="form-control" name="edificio" id="edificio"
-                                    placeholder="Ingrese su Edificio" required>
+                                <input type="text" class="form-control" name="edificio" id="edificio" placeholder="Ingrese su Edificio" required>
                             </div>
                         </div>
 
                         <div class="form-group form-row">
                             <label class="col-form-label col-12 col-md-3" for="edificio">Whatsapp:</label>
                             <div class="col-12 col-md-9">
-                                <input type="number" class="form-control" name="Whatsapp" id="Whatsapp"
-                                    placeholder="Ingrese su Whatsapp" required>
+                                <input type="number" class="form-control" name="Whatsapp" id="Whatsapp" placeholder="Ingrese su Whatsapp" required>
                             </div>
                         </div>
 
                         <div class="form-group form-row">
                             <label class="col-form-label col-12 col-md-3" for="correo">Correo:</label>
                             <div class="col-12 col-md-9">
-                                <input type="email" class="form-control" name="correo" id="correo"
-                                    placeholder="Ingrese su Correo" required>
+                                <input type="email" class="form-control" name="correo" id="correo" placeholder="Ingrese su Correo" required>
                             </div>
                         </div>
 
                         <div class="form-group form-row">
                             <label class="col-form-label col-12 col-md-3" for="mensaje">Mensaje:</label>
                             <div class="col-12 col-md-9">
-                                <textarea class="form-control" name="mensaje" id="mensaje" rows="4"
-                                    placeholder="Ingrese su Mensaje"></textarea>
+                                <textarea class="form-control" name="mensaje" id="mensaje" rows="4" placeholder="Ingrese su Mensaje"></textarea>
                             </div>
                         </div>
 
@@ -552,6 +527,261 @@
     </section>
 
     <!---------------------------------------------
+         Seccion Reseñas
+-------------------------------------------  -->
+    <section id="proveedores" class="my-5 ">
+
+        <div class="tarjetaPresentacion my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 my-1 text-center">
+                        <h1 class="heading">Reseñas</h1>
+                        <p class="proveedor">Proveedores</p>
+                    </div>
+                    <div class="owl-carousel owl-theme">
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/plomero.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Walter Ponce de Leon Sanitarista de edificios.jpg" alt="">
+                                        <h1>Ponce de Leon</h1>
+                                        <p class="job-title">Sanitarista de edificios</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-plomeria" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/gasista.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Walter Trayan.jpg" alt="">
+                                        <h1>Walter Trayan</h1>
+                                        <p class="job-title">Gasista Matriculado </p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-gasista" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/pintor.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/CarlosLizarrag.jpg" alt="">
+                                        <h1>Carlos Lizarraga</h1>
+                                        <p class="job-title">Pintor edificios en altura</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-pintor" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/Cerrajero.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Diego Diaz cerrajero.jpg" alt="">
+                                        <h1>Diego Diaz</h1>
+                                        <p class="job-title">Cerrajero</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-cerrajero" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/electricista-utilizando-medidor-digital-medir-voltaje-toma-corriente_47469-251.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Gustavo  Medina Electricista.jpg" alt="">
+                                        <h1>Gustavo Medina
+                                        </h1>
+                                        <p class="job-title">electricista</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-electricista" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/Herrero.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Emilio Morales - Herrero.jpg" alt="">
+                                        <h1>Emilio Morales</h1>
+                                        <p class="job-title">Herrero</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-herrero" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/portero.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Eduardo Aguirre Tecnico de portero electricos.jpg" alt="">
+                                        <h1>Eduardo Aguirre</h1>
+                                        <p class="job-title">Tecnico en Porteros Electricos</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-tecnicoPortero" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/Fumigador.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Justo Barrionuevo fumigador.jpg" alt="">
+                                        <h1>Justo Barrionuevo</h1>
+                                        <p class="job-title">Fumigador</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-fumigador" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/Cerrajero.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Luciano Diaz cerrajero.jpg" alt="">
+                                        <h1>Luciano Diaz</h1>
+                                        <p class="job-title">Cerrajero</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-cerrajeroDos" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/ingeniero electrico.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Marcos Martellotta Ing. Electrico.jpg" alt="">
+                                        <h1>Marcos Martellotta</h1>
+                                        <p class="job-title">Ingeniero Electrico</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-ingenieroElectrico" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="container">
+                                <div class="card-wrapper">
+                                    <div class="card">
+                                        <img class="card-img" src="img/Proveedor/ascensor.jpg" alt="">
+                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Javier Lemos Tecnico en ascensores..jpg" alt="">
+                                        <h1>Javier Lemos</h1>
+                                        <p class="job-title">Tecnico en ascensores</p>
+                                        <p class="about">
+                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
+                                            desempeño, utilizando esta conocida forma de trabajar lograremos
+                                            alcanzar metas profesionales mucho más elevadas.
+                                        </p>
+                                        <button id="wts-ascensores" class="btn">Whatsapp</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Boton WP-MAIL -->
+    <form name="enviar" id="form" class="form-wts">
+        <div class="container">
+            <div id="whatsapp">
+                <img class="card-imgg" alt="">
+
+                <input type='hidden' name='title' id="title" value='CARROCERIA/CAPOT' />
+                <label id="tituloWts" class="tituloWsp" for="">Gasista</label>
+
+                <button class="botonWtsx" type="submit" id="cerrar">X</button>
+            </div>
+        </div>
+        <h2 class="textoinvitado1">¿Cual es tu Nombre?</h2>
+
+        <input id="inputname" class="inputwts" type="text" name="name" required="" placeholder="Nombre" autocomplete="off">
+        <h2 class="textoinvitado2">¿Cual es tu Edificio?</h2>
+        <input id="inputedificio" class="inputwts" type="text" required="" placeholder="Edificio" autocomplete="off">
+        <h2 class="textoinvitado2">¿Que trabajo necesita que realicemos?</h2>
+        <textarea id="inputmensaje" name="" id="" cols="30" rows="10" class="textareawts" required=""></textarea>
+        <button type="submit" id="enviarra" class="btnwtsp"></button type="submit">
+    </form>
+
+    <!---------------------------------------------
          Zona de ubicacion
 -------------------------------------------  -->
 
@@ -561,13 +791,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="map">
-                        <h1 class="map-texto">Nuestra Ubicación</h1><a href="#slidingDiv" class="show_hide"
-                            rel="#slidingDiv"><i class="fa fa-angle-up"></i></a>
+                        <h1 class="map-texto">Nuestra Ubicación</h1><a href="#slidingDiv" class="show_hide" rel="#slidingDiv"><i class="fa fa-angle-up"></i></a>
                         <div id="slidingDiv">
                             <div class="map_area">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.5681202961237!2d-65.207153385296!3d-26.836257496482737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0f1af750ed%3A0x5d98a42ca71d4ae9!2sPje.+2+de+Abril+380%2C+T4000+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n!5e1!3m2!1ses!2sar!4v1564547863718!5m2!1ses!2sar"
-                                    width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.5681202961237!2d-65.207153385296!3d-26.836257496482737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0f1af750ed%3A0x5d98a42ca71d4ae9!2sPje.+2+de+Abril+380%2C+T4000+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n!5e1!3m2!1ses!2sar!4v1564547863718!5m2!1ses!2sar" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 
@@ -594,14 +821,14 @@
                     <div class="ft">
                         <ul>
                             <li><a href="https://www.facebook.com/cacyprop/" target="_blank">
-                            <i class="fab fa-facebook"></i>
+                                    <i class="fab fa-facebook"></i>
 
 
                             <li><a href="https://www.instagram.com/carlostrayan/?hl=en" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                           
+                                    <i class="fab fa-instagram"></i>
 
-                          
+
+
                         </ul>
                     </div>
                     <ul class="copy_right">
@@ -653,7 +880,7 @@
 
     <script>
         //Botones wp
-       
+
         var btnPlomero = document.querySelector('#wts-plomeria');
         var btnGasista = document.querySelector('#wts-gasista');
         var btnPintor = document.querySelector('#wts-pintor');
@@ -680,13 +907,13 @@
         //Eventos
 
         //Imagen logo
-       
-        cerrarform.addEventListener('click', function () {
+
+        cerrarform.addEventListener('click', function() {
             form.classList.toggle('entrarsalir')
         })
         //arr
         for (let i = 0; i < arr.length; i++) {
-            arr[i].addEventListener('click', function () {
+            arr[i].addEventListener('click', function() {
                 if (arr[i].id === 'wts-plomeria') {
                     celu = '5493815834085';
                     tituloWsp.innerHTML = 'Plomero';
@@ -745,13 +972,12 @@
                 form.classList.toggle('entrarsalir')
             })
         }
-    
+
         //Send btn
         sendbtn.addEventListener('click', enviarMensaje);
 
-        function enviarMensaje() 
-{
-           
+        function enviarMensaje() {
+
             //Condicional
             let inputnames = document.querySelector('#inputname').value;
             let textmensaje = document.querySelector('#inputmensaje').value;
@@ -761,12 +987,12 @@
                 "%0A Edificio: %0A" + inputedificios + "  %0A%0AMensaje: %0A" + textmensaje + "%0A";
             window.open(url);
 
-            $.post('prueba.php', {
+            $.post('./prueba.php', {
                 "empleado": titleWsp.value,
                 "name": inputnames,
-                "edificio":inputedificios,
-                "mensaje":textmensaje,
-            }, function (data) {
+                "edificio": inputedificios,
+                "mensaje": textmensaje,
+            }, function(data) {
                 console.log('procesamiento finalizado', data);
             });
 
