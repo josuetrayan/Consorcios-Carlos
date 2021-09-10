@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos</title>
+    <meta name="description" content="Somos una empresa capacitada para administrar los espacios comunes de cada uno de los propietarios. Le brindamos la Seguridad a los Propietarios sobre el comportamiento del Edificio.">
+    <meta name="keywords" content="Administracion de Consorcios, espacios Comunes, eventos de Administradores, administración, edificios, administradores de Tucumán">
+   <link rel="icon" href="img/logoo.png" type="image/png">  
+    <title>Administrador Carlos Trayan</title>
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/estilosindex.css">
@@ -48,10 +51,11 @@
                 <li class="nav-item page-scroll"> <a href="#Slider-Principal" class="nav-link active my-2 ml-md-1">Inicio</a></li>
                 <li class="nav-item page-scroll"> <a href="#tarjetadePresentacion" class="nav-link my-2 ml-md-1" ml-md-1>Sobre Nosotros</a></li>
                 <li class="nav-item"> <a href="#lts_sec" class="nav-link my-2 ml-md-1">Reconocimiento</a></li>
-                <li class="nav-item"> <a href="#proveedores" class="nav-link my-2 ml-md-1">Proveedores</a></li>
+                
                 <li class="nav-item"> <a href="#" class="nav-link my-2 ml-md-1">Imprimir Curriculum</a></li>
                 <li class="nav-item"> <a href="#ltd_map_sec" class="nav-link my-2 ml-md-1">Mapa</a></li>
                 <li class="nav-item"> <a href="#contacto" class="nav-link my-2 ml-md-1">Contactenos</a></li>
+                <li class="nav-item"> <a href="indexs.php" class="nav-link my-2 ml-md-1">Sen</a></li>
 
             </ul>
 
@@ -422,7 +426,7 @@
                         <h2 class="Texto-Ayuda ">¿Como Podemos Ayudarte?</h2>
                         <p class="Parrafo-Ayuda">¡¡Por cualquier Consulta nos Puedes Mandar un Whatsapp Presionado el
                             Siguiente Boton!!</p>
-                        <a href="https://wa.me/5493816641412?text= Página Webº Realice su Consulta: " target="_blank" class="btn btn-secondary ">Mandar un Whatsapp</a>
+                        <a href="https://wa.me/5493815856612?text= Página Webº Realice su Consulta: " target="_blank" class="btn btn-secondary ">Mandar un Whatsapp</a>
                     </div>
                 </div>
             </div>
@@ -526,261 +530,9 @@
         </div>
     </section>
 
-    <!---------------------------------------------
-         Seccion Reseñas
--------------------------------------------  -->
-    <section id="proveedores" class="my-5 ">
+  
 
-        <div class="tarjetaPresentacion my-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 my-1 text-center">
-                        <h1 class="heading">Reseñas</h1>
-                        <p class="proveedor">Proveedores</p>
-                    </div>
-                    <div class="owl-carousel owl-theme">
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/plomero.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Walter Ponce de Leon Sanitarista de edificios.jpg" alt="">
-                                        <h1>Ponce de Leon</h1>
-                                        <p class="job-title">Sanitarista de edificios</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-plomeria" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/gasista.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Walter Trayan.jpg" alt="">
-                                        <h1>Walter Trayan</h1>
-                                        <p class="job-title">Gasista Matriculado </p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-gasista" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/pintor.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/CarlosLizarrag.jpg" alt="">
-                                        <h1>Carlos Lizarraga</h1>
-                                        <p class="job-title">Pintor edificios en altura</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-pintor" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/Cerrajero.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Diego Diaz cerrajero.jpg" alt="">
-                                        <h1>Diego Diaz</h1>
-                                        <p class="job-title">Cerrajero</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-cerrajero" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/electricista-utilizando-medidor-digital-medir-voltaje-toma-corriente_47469-251.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Gustavo  Medina Electricista.jpg" alt="">
-                                        <h1>Gustavo Medina
-                                        </h1>
-                                        <p class="job-title">electricista</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-electricista" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/Herrero.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Emilio Morales - Herrero.jpg" alt="">
-                                        <h1>Emilio Morales</h1>
-                                        <p class="job-title">Herrero</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-herrero" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/portero.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Eduardo Aguirre Tecnico de portero electricos.jpg" alt="">
-                                        <h1>Eduardo Aguirre</h1>
-                                        <p class="job-title">Tecnico en Porteros Electricos</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-tecnicoPortero" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/Fumigador.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Justo Barrionuevo fumigador.jpg" alt="">
-                                        <h1>Justo Barrionuevo</h1>
-                                        <p class="job-title">Fumigador</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-fumigador" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/Cerrajero.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Luciano Diaz cerrajero.jpg" alt="">
-                                        <h1>Luciano Diaz</h1>
-                                        <p class="job-title">Cerrajero</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-cerrajeroDos" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/ingeniero electrico.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Marcos Martellotta Ing. Electrico.jpg" alt="">
-                                        <h1>Marcos Martellotta</h1>
-                                        <p class="job-title">Ingeniero Electrico</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-ingenieroElectrico" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="container">
-                                <div class="card-wrapper">
-                                    <div class="card">
-                                        <img class="card-img" src="img/Proveedor/ascensor.jpg" alt="">
-                                        <img class="profile-img" src="/img/Cara_de_Proveedores/Javier Lemos Tecnico en ascensores..jpg" alt="">
-                                        <h1>Javier Lemos</h1>
-                                        <p class="job-title">Tecnico en ascensores</p>
-                                        <p class="about">
-                                            El trabajo en equipo nos permite ser mucho más eficientes en nuestro
-                                            desempeño, utilizando esta conocida forma de trabajar lograremos
-                                            alcanzar metas profesionales mucho más elevadas.
-                                        </p>
-                                        <button id="wts-ascensores" class="btn">Whatsapp</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <!-- Boton WP-MAIL -->
-    <form name="enviar" id="form" class="form-wts">
-        <div class="container">
-            <div id="whatsapp">
-                <img class="card-imgg" alt="">
-
-                <input type='hidden' name='title' id="title" value='CARROCERIA/CAPOT' />
-                <label id="tituloWts" class="tituloWsp" for="">Gasista</label>
-
-                <button class="botonWtsx" type="submit" id="cerrar">X</button>
-            </div>
-        </div>
-        <h2 class="textoinvitado1">¿Cual es tu Nombre?</h2>
-
-        <input id="inputname" class="inputwts" type="text" name="name" required="" placeholder="Nombre" autocomplete="off">
-        <h2 class="textoinvitado2">¿Cual es tu Edificio?</h2>
-        <input id="inputedificio" class="inputwts" type="text" required="" placeholder="Edificio" autocomplete="off">
-        <h2 class="textoinvitado2">¿Que trabajo necesita que realicemos?</h2>
-        <textarea id="inputmensaje" name="" id="" cols="30" rows="10" class="textareawts" required=""></textarea>
-        <button type="submit" id="enviarra" class="btnwtsp"></button type="submit">
-    </form>
-
+   
     <!---------------------------------------------
          Zona de ubicacion
 -------------------------------------------  -->
@@ -831,10 +583,14 @@
 
                         </ul>
                     </div>
+                    
+                    
                     <ul class="copy_right">
                         <li>&copy;Consorcio Carlos Trayan</li>
-                        <li></li>
+                        <a>&copy;Developer by THE MOCHO</a>
+
                     </ul>
+                   
                 </div>
             </div>
         </div>
@@ -915,57 +671,69 @@
         for (let i = 0; i < arr.length; i++) {
             arr[i].addEventListener('click', function() {
                 if (arr[i].id === 'wts-plomeria') {
-                    celu = '5493815834085';
+                    celu = '5493816103354';
                     tituloWsp.innerHTML = 'Plomero';
                     titleWsp.value = 'Plomero';
                     cardwsp.classList = 'card-plomero';
                 } else if (arr[i].id === 'wts-gasista') {
-                    celu = '5493815834085';
+                    celu = '5493815756579';
                     tituloWsp.innerHTML = 'Gasista';
                     cardwsp.classList = 'card-gasista';
+                    titleWsp.value = 'Gasista';
                 } else if (arr[i].id === 'wts-pintor') {
-                    celu = '5493816641412';
+                    celu = '5493815851746';
                     tituloWsp.innerHTML = 'Pintor';
                     cardwsp.classList = 'card-pintor';
+                    titleWsp.value = 'Pintor';
                 } else if (arr[i].id === 'wts-cerrajero') {
-                    celu = '5493815834085';
+                    celu = '5493813361004';
                     tituloWsp.innerHTML = 'Cerrajero';
                     cardwsp.classList = 'card-cerrajero2';
+                    titleWsp.value = 'Cerrajero';
                 } else if (arr[i].id === 'wts-electricista') {
-                    celu = '5493815834085';
+                    celu = '5493813424619';
                     tituloWsp.innerHTML = 'Electricista';
                     cardwsp.classList = 'card-electricista';
+                    titleWsp.value = 'Electricista';
                 } else if (arr[i].id === 'wts-herrero') {
-                    celu = '5493815834085';
+                    celu = '5493815418999';
                     tituloWsp.innerHTML = 'Herrero';
                     cardwsp.classList = 'card-herrero';
+                    titleWsp.value = 'Herrero';
                 } else if (arr[i].id === 'wts-tecnicoPortero') {
-                    celu = '5493815834085';
+                    celu = '5493814466037';
                     tituloWsp.innerHTML = 'Técnico Portero ';
                     cardwsp.classList = 'card-tecnicoPortero';
+                    titleWsp.value = 'Tecnico Portero';
                 } else if (arr[i].id === 'wts-fumigador') {
-                    celu = '5493815834085';
+                    celu = '5493814123982';
                     tituloWsp.innerHTML = 'Fumigador';
                     cardwsp.classList = 'card-fumigador';
+                    titleWsp.value = 'Fumigador';
                 } else if (arr[i].id === 'wts-cerrajeroDos') {
-                    celu = '5493815834085';
+                    celu = '';
                     tituloWsp.innerHTML = 'Cerrajero';
                     cardwsp.classList = 'card-cerrajero1';
+                    titleWsp.value = 'Cerrajero';
                 } else if (arr[i].id === 'wts-ingenieroElectrico') {
-                    celu = '5493815834085';
+                    celu = '5493816342721';
                     tituloWsp.innerHTML = 'Ingeniero Electrico';
                     cardwsp.classList = 'card-electricistaing';
+                    titleWsp.value = 'Ingeniero Electrico';
                 } else if (arr[i].id === 'wts-ascensores') {
-                    celu = '5493815834085';
+                    celu = '5493814800076';
                     tituloWsp.innerHTML = 'Ascensor';
                     cardwsp.classList = 'card-ascensor';
+                    titleWsp.value = 'Ascensor';
                 } else if (arr[i].id === 'wts-albañileria') {
-                    celu = '5493815834085';
+                    celu = '5493815367251';
                     tituloWsp.innerHTML = 'Albañileria';
+                    titleWsp.value = 'Albañileria';
                 } else if (arr[i].id === 'wts-electricista') {
-                    celu = '5493815834085';
+                    celu = '5493813424619';
                     tituloWsp.innerHTML = 'Electricista';
                     cardwsp.classList = 'card-ascensor';
+                    titleWsp.value = 'Electricista';
                 }
 
                 console.log(titleWsp.value);

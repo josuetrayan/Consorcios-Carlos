@@ -153,7 +153,26 @@
   .text-primary {
     color: #8a0443 !important;
   }
+  .bg-secondary {
+    background-color:#001c38!important;
+  }
+  /*.bg-secondary {
+    background-color: #03264f !important;
+  }*/
   
+/*colores
+#001c38
+
+
+
+*/
+
+#ltd_map_sec {
+  background: none 0 0 repeat scroll #001c38!important;
+  text-align: center;
+}
+
+
   /*Estilos btn-primary*/
   .btn-primaryy {
     color: #fff;
@@ -436,7 +455,7 @@
   }
   
   .titulo6-SobreNosotros {
-    color: rgb(90, 88, 88);
+    color: rgb(0, 0, 0);
     font-size: 1.3rem;
     font-family: 'mifuente12';
   }
@@ -814,6 +833,13 @@
     background-image: url(../img/Empleados/Empleado_6.jpg);
     background-size: cover;
     border-radius: 50%;
+  }
+  .card20 {
+    background-image: url(../img/Empleados/dolo.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+   
+    
   }
   
   .card1 {
@@ -1749,6 +1775,73 @@ font-size: 1.6rem;
     background-image: url(../img/Menu/auto.jpg);
   }
   
+  /* Expensa admin */
+  
+  .botonmes{
+    color: rgb(191, 191, 191);
+    width: 30rem;
+    background-color:#8a0443;
+    border: double rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-family: 'miFuente9';
+  }
+  .edificioList{
+    border-radius: 10%;
+    border: solid 2px black;
+  }
+  .nombreEdificio{
+    font-family: 'miFuente9'!important;
+  }
+  .inputmes{
+    border-radius: 10%;
+    border: solid 2px black;
+  }
+  .nombreMes{
+    font-family: 'miFuente9';
+  }
+  .formpdf{
+ position: relative;
+ text-align: center;
+    
+  }
+  .pdf{
+    margin-top:2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'miFuente9';
+  }
+.admin{
+   width: 100%;
+   margin: auto;
+   border: 3px solid #369681;
+   padding: 30px;
+  }
+  
+    /* Expensa List */
+  
+td.list{
+  font-family:fantasy;
+}
+td.holamunndo a:link, a:visited, a:active{
+  font-family: 'expensa';
+  text-decoration:none;
+  
+}
+td.holamunndo:hover{
+  background-color: #369681;
+ font-size: 1.5rem;
+}
+
+
+    
+
+.contenedorexpensa{
+  background-color: red;
+}
   /* TABLA EXPENSA */
   
 .tablaexpensa{
@@ -1783,10 +1876,10 @@ thead{
 tr:nth-child(even){
     background-color: #ddd;
 }
-tr:hover td{
+/* tr:hover td{
   background-color: #369681;
   color:white;
-}
+} */
 
   
   

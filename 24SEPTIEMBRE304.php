@@ -68,12 +68,12 @@ if (isset($_POST['subir'])) {
     </head>
 
     <body>
-     
+
         <!---------------------------------------------
         Seccion Navbar
          
 -------------------------------------------  -->
-      
+
         <nav id="Menu-Barra" class="navbar navbar-dark bg-secondary navbar-expand-md">
 
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menu-Principal"
@@ -102,9 +102,8 @@ if (isset($_POST['subir'])) {
 
                     <li class="nav-item page-scroll"> <a href="#Slider-Principal"
                             class="nav-link active my-2 ml-md-1">Inicio</a></li>
-                    <li class="nav-item page-scroll"> <a href="#tarjetadePresentacion" class="nav-link my-2 ml-md-1"
-                            ml-md-1>Sobre Nosotros</a></li>
-                    <li class="nav-item"> <a href="#lts_sec" class="nav-link my-2 ml-md-1">Reconocimiento</a></li>
+
+
                     <li class="nav-item"> <a href="#proveedores" class="nav-link my-2 ml-md-1">Proveedores</a></li>
                     <li class="nav-item"> <a href="#" class="nav-link my-2 ml-md-1">Imprimir Curriculum</a></li>
                     <li class="nav-item"> <a href="#ltd_map_sec" class="nav-link my-2 ml-md-1">Mapa</a></li>
@@ -201,58 +200,44 @@ if (isset($_POST['subir'])) {
 -------------------------------------------  -->
 
 
-        <Section id="tarjetadePresentacion">
-            <div class="container d-flex my-5">
-                <div class="row my-5">
-                    <div class="Tarjeta-Presentacion d-md-flex mr-5 ml-5 my-5 mt-5 ">
-
-                        <div id="Contenedor-Foto-Presentacion" class="col-sm-12 col-md-6 mr-0 ml-0  text-left ">
-                        <img class="Foto-Presentacion" src="img/Carlos/portada-administrador.jpeg" alt="">
-                        </div>
-
-                        <div class="col-sm-12 col-md-6  ">
-                            <h2 class="Texto-Titulo ml-md-4 mt-md-5">Carlos Trayan</h2>
-                            <h3 class="Texto-Sub-Titulo ml-md-4 mt-md-3 ">Administración</h3>
-                            <p class="Parrafo mr-md-4 ml-md-4 mt-md-3 ">Me dirijo a Ustedes con el fin de ofrecer mis
-                                Servicios
-                                Profesionales como administrador, me desempeño en 26 consorcios de la capital de
-                                Tucuman, al momento de tomarlos los mismos contaban con números negativos
-                                significativamente, y estos se pudieron revertir con un mecanismo de estratégico de
-                                trabajo, y acompañado de un excelente equipo Profesional</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </Section>
 
 
-               <!-- tabla  -->
-               <div class="tablaexpensa text-center py-5 mb-5">
-                <table>
-            </div>
-            <h2 class="expensa">Presione para Visualizar la Expensa de la 24 de septiembre 304 </h2>
-            <thead>
-                <tr>
-                    <th class="mesExpensa" >Mes de la Expensa</th>
-                    <th class="mesExpensas">Expensa</th>
-                </tr>
-            </thead>
-            <?php
+
+        <!-- tabla  -->
+        <div class="tablaexpensa text-center py-5 mb-5">
+            <table>
+        </div>
+        <h2 class="expensa">Presione para Visualizar la Expensa </h2>
+        <thead>
+            <tr>
+                <th class="mesExpensa">Mes de la Expensa</th>
+                <th class="mesExpensas">Expensa</th>
+            </tr>
+        </thead>
+        <?php
         $db=new Conect_MySql();
             $sql = "select*from 24septiembre304";
             $query = $db->execute($sql);
             while($datos=$db->fetch_row($query)){?>
-            <tr>
-                <td class="list"><?php echo $datos['titulo']; ?></td>
-                <!-- ingresa el nombre de la pagina del edificio -->
-                <!-- ingresa nombre_archivo para que parezaca el nombre -->
-                <td class="holamunndo"><a
-                        href="24SEPTIEMBRE304.php?id=<?php echo $datos['id_documento']?>"><?php echo $datos['nombre_archivo']; ?></a>
-                </td>
-            </tr>
 
-            <?php  } ?>
+        <tr>
+            <td class="list">
+                <?php echo $datos['titulo']; ?>
+            </td>
+            <!-- ingresa el nombre de la pagina del edificio -->
+            <!-- ingresa nombre_archivo para que parezaca el nombre -->
+        
+      
+
+      
+            <td class="holamunndo"><a href="24SEPTIEMBRE304.php?id=<?php echo $datos['id_documento']?>">
+                    <?php echo $datos['nombre_archivo']; ?>
+                </a>
+            </td>
+        </tr>
+
+
+        <?php  } ?>
 
         </table>
 
@@ -277,279 +262,7 @@ if (isset($_POST['subir'])) {
         </div>
 
 
-        <!---------------------------------------------
-         Seccion Sobre Nosotros
--------------------------------------------  -->
-
-        <section id="sobreNosotros">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 mb-5 my-5">
-                        <h2 class="tituloSobreNosotros d-flex justify-content-center"> ¡¡TE CONTAMOS UN POCO SOBRE
-                            NOSOTROS!!</h2>
-                        <span class="sabias-que d-flex justify-content-center text-center">Administración de Carlos
-                            Trayan</span>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <i id="añosExp" class="fas fa-calendar-check fa-5x"></i>
-                        <div class="h2 text-center ">
-                            <span class="counter" data-counterup-beginat="0" data-counterup-time="500">12</span>
-                        </div>
-                        <h6 class="titulo6-SobreNosotros">Años de experiencia</h6>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <i id="edificios" class="fas fa-building fa-5x"></i>
-                        <div class="h2 text-center ">
-                            <span class="counter" data-counterup-beginat="0" data-counterup-time="500">30</span>
-                        </div>
-                        <h6 class="titulo6-SobreNosotros">Edificios Administrados</h6>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <i id="premiosObtenidos" class="fas fa-award fa-5x"></i>
-                        <div class="h2 text-center ">
-                            <span class="counter" data-counterup-beginat="0" data-counterup-time="500">3</span>
-                        </div>
-                        <h6 class="titulo6-SobreNosotros">Reconocimientos obtenidos</h6>
-                    </div>
-
-                    <div class="col-lg-3 col-6 text-center">
-                        <i id="recomendacion" class="fas fa-thumbs-up fa-5x"></i>
-                        <div class="h2 text-center">
-                            <span class="counter" data-counterup-beginat="0"
-                                data-counterup-time="2000">100</span><span>%</span>
-                        </div>
-                        <h6 class="titulo6-SobreNosotros">Recomendaciones</h6>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-<h2></h2>
-
-
-
-
-
-        <!---------------------------------------------
-         Seccion Reconocimientos
--------------------------------------------  -->
-        <section id="lts_sec">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs12 pyy ">
-                        <div class="title_sec py-5">
-                            <h1></h1>
-                            <h2 class="texto-Reconocimiento py-5">Reconocimientos asociados a nuestro consorcio</h2>
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="lts_pst">
-                            <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante ctarjetaProveedor10"></div>
-                                        <div class="atras ctarjetaProveedor14"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <h2 class="40mejores"> Uno de los 40 mejores administradores del mundo.</h2>
-                            </a>
-                            </a>
-                            <p>Carlos Trayan, administrador en Tucumán y actual presidente de la Cámara de
-                                administradores
-                                de esa provincia, es otro de los mencionados entre las .</p>
-                            <div id='uno' style="display: none">
-                                <p>
-                                    páginas de este libro. “Fue toda una
-                                    sorpresa para nosotros. Aquí cultivamos un
-                                    muy bajo perfil, somos gente sencilla que trabaja muchas horas por día con recursos
-                                    muy
-                                    limitados propios de una provincia del interior de un país con grandes dificultades.
-                                    Y
-                                    cuando uno observa cómo se desempeñan los profesionales
-                                    de otras latitudes, aprendemos, pero también revalorizamos nuestra entrega” Define
-                                    Trayan. “Esta mención la tomo para mi equipo, que en definitiva son los que
-                                    absorben el peso de la gestión diaria. Uno es la cara visible de un grupo de
-                                    personas
-                                    que hacen un esfuerzo notable por servir y sin ellos mi
-                                    trabajo sería imposible” asegura Trayan, lejos de usar palabras comunes, para
-                                    quienes
-                                    conocemos desde adentro sus oficinas.</p>
-                            </div>
-                            <div class="post_btn">
-                                <div class="hover_effect_btn" id="hover_effect_btn">
-                                    <a id='boton1' onclick="Vermas('uno','boton1')"
-                                        data-hover="view more post"><span>Leer
-                                            Más</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="lts_pst">
-                            <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante  ctarjetaProveedor13"></div>
-                                        <div class="atras ctarjetaProveedor11"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <h2>Actual Presidente de la Cámara de Administradores</h2>
-                            <p>“Sería muy positivo que los consorcios consulten a la Cámara antes de contratar un
-                                administrador, ya que al conocer a los profesionales del medio y al contar </p>
-                            </a>
-                            <div id='Dos' style="display: none">
-                                <p>con un registro
-                                    de ellos estamos en condiciones de brindar asesoramiento.
-                                    Así se evita que quienes carecen de los conocimientos necesarios asuman una
-                                    responsabilidad
-                                    tan grande como administrar una propiedad horizontal sin estar habilitados para
-                                    afrontarlo”,
-                                    comenta Carlos Trayán, titular de la Cámara.
-                                    Trayán resalta que pretenden brindar un servicio a la comunidad no sólo trabajando
-                                    con
-                                    los administradores, sino también “protegiendo a los consorcistas
-                                    para que no caigan en manos de inescrupulosos que no asumen sus responsabilidades”.
-                                    Él
-                                    cree que es clave mejorar la relación con otros organismos,
-                                    entre los cuales está la Municipalidad, y expresa el anhelo de colegiar a los
-                                    profesionales, regulando así la actividad, ya que los errores de quienes administran
-                                    sin
-                                    estar preparados siempre terminan perjudicando a los
-                                    propietarios. </p>
-                            </div>
-                            <div class="post_btn">
-                                <div class="hover_effect_btn" id="hover_effect_btn">
-                                    <a id='boton2' onclick="Vermas('Dos','boton2')"
-                                        data-hover="view more post"><span>Leer
-                                            Más</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12">
-                        <div class="lts_pst">
-                            <div class="Reconocimientos">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante ctarjetaProveedor12"></div>
-                                        <div class=" atras ctarjetaProveedor15"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <h2>Miembro del Comité Ejecutivo de la Federación Económica</h2>
-                            <p>Gracias por confiar en mi persona . Gracias por ser un de los Miembros del Comité
-                                Ejecutivo
-                                de la Federación Económica de Tucumán. Muchas gracias.</p>
-                            <div class="post_btn">
-                                <div class="hover_effect_btn" id="hover_effect_btn">
-                                    <a id='boton' onclick="Vermas('Tres','boton')"
-                                        data-hover="view more post"><span>Leer
-                                            Más</span></a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-            </div>
-        </section>
-
-        <!---------------------------------------------
-        Seccion Nuestro Equipo
--------------------------------------------  -->
-
-        <section id="nuestroEquipo" class="my-5">
-            <div class="tarjetaPresentacion my-5">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 my-5 text-center">
-                            <h2 class="tituloNuestroTeam">Nuestros Integrantes</h2>
-                        </div>
-                        <div class="owl-carousel owl-theme">
-
-                            <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante card12"></div>
-                                        <div class="atras card2"></div>
-                                    </div>
-                                    <h2 class="nombreTarjeta"> Carlos A. Trayan <span
-                                            class="cargoTarjeta text-center">Administrador</span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante card3"></div>
-                                        <div class="atras card4"></div>
-                                    </div>
-                                    <h3 class="nombreTarjeta">Jessica Daniel <br> <span
-                                        class="cargoTarjeta">Recepción</span></h3>
-                                <p></p>
-                                </div>
-                            </div>
-
-                            <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante card7"></div>
-                                        <div class="atras card8"></div>
-                                    </div>
-                                    <h2 class="nombreTarjeta">Walter E. Trayan <br> <span class="cargoTarjeta">Maestro
-                                            Mayor
-                                            de Obra</span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-12">
-                                    <div class="empleado">
-                                        <div class="adelante card9"></div>
-                                        <div class="atras card10"></div>
-                                    </div>
-                                    <h2 class="nombreTarjeta">Ortega C. Hector <br> <span
-                                            class="cargoTarjeta">Abogado</span></h2>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="item">
-                            <div class="col-12">
-                                <div class="empleado">
-                                    <div class="adelante card15"></div>
-                                    <div class="atras card20"></div>
-                                </div>
-                                <h2 class="nombreTarjeta">Dolores Garrocho <br> <span
-                                        class="cargoTarjeta">Contadora</span></h2>
-                                <p></p>
-                            </div>
-                        </div>
-                           
-
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            </div>
-        </section>
-
-
-        <!---------------------------------------------
-        Seccion Ayuda
--------------------------------------------  -->
+       
 
 
         <section id="Ayuda">
@@ -564,7 +277,7 @@ if (isset($_POST['subir'])) {
                             <p class="Parrafo-Ayuda">¡¡Por cualquier Consulta nos Puedes Mandar un Whatsapp Presionado
                                 el
                                 Siguiente Boton!!</p>
-                            <a href="https://wa.me/5493816641412?text= Página Webº Realice su Consulta: "
+                            <a href="https://wa.me/5493815856612?text= Página Webº Realice su Consulta: "
                                 target="_blank" class="btn btn-secondary ">Mandar un Whatsapp</a>
                         </div>
                     </div>
@@ -849,6 +562,110 @@ if (isset($_POST['subir'])) {
             <button type="submit" id="enviarra" class="btnwtsp"></button type="submit">
         </form>
 
+
+
+        <!---------------------------------------------
+         Transferencia
+-------------------------------------------  -->
+
+        <section id="contacto">
+
+<header class="py-5 bg-warning text-center position-relative">
+    <h2 class=" texto-contactanos display-4 font-weight-bold">Informar Transferencia</h2>
+    <H6 class=" texto-parrafo text-white-50">Si necesitan saber ¿cómo hacer una transferencia de un banco a otro? ya que en la Web de su banco no lo encuentran o se contactaron con el banco y no les dieron respuesta. Aquí pueden saber cómo hacer una transferencia de una cuenta a otra cuenta. Les dejamos algunos ejemplos, si bien todo dependerá de cada banco, por lo que puede modificarse en algo algún paso y los montos a transferir.
+        <div class="detalle-rectangulo"></div>
+</header>
+<div class="container">
+    <div class="row py-5">
+        <div class="col-12 col-lg-6">
+            <h2 class=" texto-titulo font-weight-bold text-center mb-2">Detalles de Transferencia</h2>
+            <ul class="list-unstyled">
+                <li class="d-flex border-bottom py-4">
+                    <i class="far fa-building  fa-3x  mr-4 fa-fw"></i>
+                    <div>
+                        <i class=""></i>
+                        <h5 class="contacto-titulo font-weight-bold">Nombre:</h5>
+                        <p class="contacto-parrafo mb-0">Nombre del Propietario
+                            
+                        </p>
+                </li>
+
+                <li class="d-flex border-bottom py-4">
+                    <i class="fab fa-whatsapp fa-3x  mr-4 fa-fw"></i>
+                    <div>
+                        <h5 class="contacto-titulo font-weight-bold">Whatsapp:</h5>
+                        <p class="contacto-parrafo mb-0">+54 (381) 444-7888) <br> +54 (4500916)</p>
+                </li>
+
+                <li class="d-flex border-bottom py-4">
+                    <i class="fas fa-envelope fa-3x y  mr-4 fa-fw"></i>
+                    <div>
+                        <h5 class="contacto-titulo font-weight-bold">Email:</h5>
+                        <p class="contacto-parrafo mb-0">Consorcios.trayan@gmail.com</p>
+                </li>
+
+                <li class="d-flex border-bottom py-4">
+                    <i class="fab fa-instagram fa-3x  mr-4 fa-fw"></i>
+                    <div>
+                        <h5 class="contacto-titulo font-weight-bold">Comprobante de pago</h5>
+                        <p class="contacto-parrafo mb-0">Imagen del comprobante de pago</p>
+                </li>
+
+                <li class="d-flex border-bottom py-4">
+                    <i class="fab fa-instagram fa-3x  mr-4 fa-fw"></i>
+                    <div>
+                        <h5 class="contacto-titulo font-weight-bold">Mensaje</h5>
+                        <p class="contacto-parrafo mb-0">Ingrese algun mensaje</p>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="col-12 col-lg-6">
+            <h2 class=" texto-titulo font-weight-bold text-center mb-5">Notificar Transferencia</h2>
+            <form action="send-mail.php" id="mi-formulario" method="post">
+
+                <div class="form-group form-row">
+                    <label class="col-form-label col-12 col-md-3" for="nombre">Nombre:</label>
+                    <div class="col-12 col-md-9">
+                        <input type="text" class="form-control" name="nombre" id="nombre"
+                            placeholder="Ingrese su Nombre" required />
+                    </div>
+                </div>
+
+
+                <div class="form-group form-row">
+                    <label class="col-form-label col-12 col-md-3" for="edificio">Whatsapp:</label>
+                    <div class="col-12 col-md-9">
+                        <input type="number" class="form-control" name="Whatsapp" id="Whatsapp"
+                            placeholder="Ingrese su Whatsapp" required>
+                    </div>
+                </div>
+
+                <div class="form-group form-row">
+                    <label class="col-form-label col-12 col-md-3" for="correo">Correo:</label>
+                    <div class="col-12 col-md-9">
+                        <input type="email" class="form-control" name="correo" id="correo"
+                            placeholder="Ingrese su Correo" required>
+                    </div>
+                </div>
+
+                <div class="form-group form-row">
+                    <label class="col-form-label col-12 col-md-3" for="mensaje">Mensaje:</label>
+                    <div class="col-12 col-md-9">
+                        <textarea class="form-control" name="mensaje" id="mensaje" rows="4"
+                            placeholder="Ingrese su Mensaje"></textarea>
+                    </div>
+                </div>
+
+                <a href="" type="submit" class="btn btn-primaryy">Enviar Mensaje</a>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+
+
         <!---------------------------------------------
          Zona de contacto
 -------------------------------------------  -->
@@ -953,6 +770,10 @@ if (isset($_POST['subir'])) {
         </section>
 
         <!---------------------------------------------
+         Zona de contacto
+-------------------------------------------  -->
+
+        <!---------------------------------------------
          Zona de ubicacion
 -------------------------------------------  -->
 
@@ -989,35 +810,35 @@ if (isset($_POST['subir'])) {
 
 
 
-        <footer id="ft_sec py-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="ft">
-                            <ul>
-                                <li><a href="https://www.facebook.com/cacyprop/" target="_blank"><i
-                                            class="fa fa-facebook"></i></a></li>
+<footer id="ft_sec py-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ft">
+                        <ul>
+                            <li><a href="https://www.facebook.com/cacyprop/" target="_blank">
+                                    <i class="fab fa-facebook"></i>
 
 
-                                <li><a href="https://www.instagram.com/carlostrayan/?hl=en" target="_blank"><i
-                                            class="fa fa-rss"></i></a></li>
+                            <li><a href="https://www.instagram.com/carlostrayan/?hl=en" target="_blank">
+                                    <i class="fab fa-instagram"></i>
 
-                                <li><a href="https://ar.pinterest.com/carlostrayan/" target="_blank"><i
-                                            class="fa fa-pinterest"></i></a></li>
 
-                                <li><a href=""><i class="fa fa-google"></i></a></li>
-                            </ul>
-                        </div>
-                        <ul class="copy_right">
 
-                            <li>&copy;Consorcio Carlos Trayan</li>
-                            <li></li>
                         </ul>
                     </div>
+                    
+                    
+                    <ul class="copy_right">
+                        <li>&copy;Consorcio Carlos Trayan</li>
+                        <a>&copy;Developer by THE MOCHO</a>
+
+                    </ul>
+                   
                 </div>
             </div>
-        </footer>
-
+        </div>
+    </footer>
         <!---------------------------------------------
          Zona de Script
 -------------------------------------------  -->
@@ -1093,57 +914,69 @@ if (isset($_POST['subir'])) {
             for (let i = 0; i < arr.length; i++) {
                 arr[i].addEventListener('click', function () {
                     if (arr[i].id === 'wts-plomeria') {
-                        celu = '5493815834085';
+                        celu = '5493816103354';
                         tituloWsp.innerHTML = 'Plomero';
                         titleWsp.value = 'Plomero';
                         cardwsp.classList = 'card-plomero';
                     } else if (arr[i].id === 'wts-gasista') {
-                        celu = '5493815834085';
+                        celu = '5493815756579';
                         tituloWsp.innerHTML = 'Gasista';
                         cardwsp.classList = 'card-gasista';
+                        titleWsp.value = 'Gasista';
                     } else if (arr[i].id === 'wts-pintor') {
-                        celu = '5493816641412';
+                        celu = '5493815851746';
                         tituloWsp.innerHTML = 'Pintor';
                         cardwsp.classList = 'card-pintor';
+                        titleWsp.value = 'Pintor';
                     } else if (arr[i].id === 'wts-cerrajero') {
-                        celu = '5493815834085';
+                        celu = '5493813361004';
                         tituloWsp.innerHTML = 'Cerrajero';
                         cardwsp.classList = 'card-cerrajero2';
+                        titleWsp.value = 'Cerrajero';
                     } else if (arr[i].id === 'wts-electricista') {
-                        celu = '5493815834085';
+                        celu = '5493813424619';
                         tituloWsp.innerHTML = 'Electricista';
                         cardwsp.classList = 'card-electricista';
+                        titleWsp.value = 'Electricista';
                     } else if (arr[i].id === 'wts-herrero') {
-                        celu = '5493815834085';
+                        celu = '5493815418999';
                         tituloWsp.innerHTML = 'Herrero';
                         cardwsp.classList = 'card-herrero';
+                        titleWsp.value = 'Herrero';
                     } else if (arr[i].id === 'wts-tecnicoPortero') {
-                        celu = '5493815834085';
+                        celu = '5493814466037';
                         tituloWsp.innerHTML = 'Técnico Portero ';
                         cardwsp.classList = 'card-tecnicoPortero';
+                        titleWsp.value = 'Tecnico Portero';
                     } else if (arr[i].id === 'wts-fumigador') {
-                        celu = '5493815834085';
+                        celu = '5493814123982';
                         tituloWsp.innerHTML = 'Fumigador';
                         cardwsp.classList = 'card-fumigador';
+                        titleWsp.value = 'Fumigador';
                     } else if (arr[i].id === 'wts-cerrajeroDos') {
-                        celu = '5493815834085';
+                        celu = '';
                         tituloWsp.innerHTML = 'Cerrajero';
                         cardwsp.classList = 'card-cerrajero1';
+                        titleWsp.value = 'Cerrajero';
                     } else if (arr[i].id === 'wts-ingenieroElectrico') {
-                        celu = '5493815834085';
+                        celu = '5493816342721';
                         tituloWsp.innerHTML = 'Ingeniero Electrico';
                         cardwsp.classList = 'card-electricistaing';
+                        titleWsp.value = 'Ingeniero Electrico';
                     } else if (arr[i].id === 'wts-ascensores') {
-                        celu = '5493815834085';
+                        celu = '5493814800076';
                         tituloWsp.innerHTML = 'Ascensor';
                         cardwsp.classList = 'card-ascensor';
+                        titleWsp.value = 'Ascensor';
                     } else if (arr[i].id === 'wts-albañileria') {
-                        celu = '5493815834085';
+                        celu = '5493815367251';
                         tituloWsp.innerHTML = 'Albañileria';
+                        titleWsp.value = 'Albañileria';
                     } else if (arr[i].id === 'wts-electricista') {
-                        celu = '5493815834085';
+                        celu = '5493813424619';
                         tituloWsp.innerHTML = 'Electricista';
                         cardwsp.classList = 'card-ascensor';
+                        titleWsp.value = 'Electricista';
                     }
 
                     console.log(titleWsp.value);
@@ -1165,7 +998,7 @@ if (isset($_POST['subir'])) {
                     "%0A Edificio: %0A" + inputedificios + "  %0A%0AMensaje: %0A" + textmensaje + "%0A";
                 window.open(url);
 
-                $.post('prueba.php', {
+                $.post('./prueba.php', {
                     "empleado": titleWsp.value,
                     "name": inputnames,
                     "edificio": inputedificios,
@@ -1173,7 +1006,6 @@ if (isset($_POST['subir'])) {
                 }, function (data) {
                     console.log('procesamiento finalizado', data);
                 });
-
             }
         </script>
 

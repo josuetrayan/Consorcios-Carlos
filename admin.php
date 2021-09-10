@@ -47,6 +47,7 @@ if (isset($_POST['subir'])) {
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estilosindex.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -68,109 +69,160 @@ if (isset($_POST['subir'])) {
     </head>
 
     <body>
-        <div style="width: 500px;margin: auto;border: 1px solid blue;padding: 30px;">
-            <h4>Subir PDF</h4>
-            <form method="post" action="" enctype="multipart/form-data">
-                <table>
-                    <tr>
-                        <td><label>Mes</label></td>
-                        <td><input type="text" name="titulo"></td>
-                        <label>Nombre de edificio</label></td>
-                        <select name="edificiosList" id="">
-                            <option value="24septiembre304">24 de septiembre 304</option>
-                            <option value="2deabril380">2 de abril 380</option>
-                            <option value="25mayo30">25 MAYO 30</option>
-                            <option value="25mayo312">25 mayo 312</option>
-                            <option value="alem146-150">alem 146-150</option>
-                            <option value="balcarce179">balcarce 179 </option>
-                            <option value="balcarce670">balcarce 670 </option>
-                            <option value="belgrano3406">belgrano 3406</option>
-                            <option value="catamarca655">catamarca 655</option>
-                            <option value="congresales">congresales</option>
-                            <option value="congreso850">congreso 850 </option>
-                            <option value="corrientes961">corrientes 961 </option>
-                            <option value="crisostomo352">crisostomo 352 </option>
-                            <option value="ejercitoymendoza">ejercito y mendoza</option>
-                            <option value="entrerios63">entre rios 63 </option>
-                            <option value="entrerios167">entrerios 167 </option>
-                            <option value="gobernadorcampo">gobernador campo </option>
-                            <option value="gonzalo">gonzalo </option>
-                            <option value="jade">jade </option>
-                            <option value="lamadrid910">lamadrid 910 </option>
-                            <option value="laprida1255">laprida1255 </option>
-                            <option value="laspiedras297">laspiedras 297 </option>
-                            <option value="lavalle84">lavalle 84 </option>
-                            <option value="mendoza480">mendoza 480 </option>
-                            <option value="mendoza1053">mendoza 1053 </option>
-                            <option value="monteagudo731">monteagudo 731 </option>
-                            <option value="monteagudo511">monteagudo 511 </option>
-                            <option value="muñeca458">muñeca 458 </option>
-                            <option value="pjesantillan936">pje santillan 936 </option>
-                            <option value="sanjuan649">san juan 649 </option>
-                            <option value="sanlorenzoyheras">san lorenzo y heras </option>
-                            <option value="santiago48">santiago 48 </option>
-                            <option value="santiago671">santiago 671</option>
+       
+<!---------------------------------------------
+        Seccion Navbar
+         
+-------------------------------------------  -->
+      
+<nav id="Menu-Barra" class="navbar navbar-dark bg-secondary navbar-expand-md">
+
+<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menu-Principal"
+    aria-expanded="false" aria-label="Boton Menu">
+
+    <span class="Boton-Menu"></span>
+
+</button>
+
+<div class="logos">
+    <a href=""><img src="img/logo.png " alt="" class="logoPrincipal hidden-sm-down animated pulse infinite "
+            style="animation-duration: 1s;"></a>
+</div>
+
+<div class="BOTON order-md-2 ml-md-1">
+    <a href="cerrar_sesion.php" class="btn btn-primary   mb-1 mt-0  ">Cerrar Sesion</a>
+
+
+</div>
+
+
+
+<div class="collapse navbar-collapse  " id="Menu-Principal">
+
+    
+
+</div>
+
+</nav>
+
+
+
+            <h4 class="pdf">Subir PDF</h4>
+            <form class="formpdf" method="post" action="" enctype="multipart/form-data">
+                <div class="container">
+                    <div class="row py-2">
+                    <div class="admin">
+                   
+                        <div>
+                            <div class="col-12 py-2">
+
+                                <td><label class="nombreMes">Mes</label></td>
+                                <td><input class="inputmes" type="text" name="titulo"></td>
+                            </div>
+
+                            <div class="col-12 py-2"></div>
+                            <label class="nombreEdificio">Nombre de edificio</label>
+                            <select class="edificioList" name="edificiosList" id="">
+                                <option value="24septiembre304">24 de septiembre 304</option>
                             
+                                <option value="2deabril380">2 de abril 380</option>
+                                <option value="25mayo30">25 MAYO 30</option>
+                                <option value="25mayo312">25 mayo 312</option>
+                                <option value="alem146-150">alem 146-150</option>
+                                <option value="balcarce179">balcarce 179 </option>
+                                <option value="balcarce670">balcarce 670 </option>
+                                <option value="belgrano3406">belgrano 3406</option>
+                                <option value="catamarca655">catamarca 655</option>
+                                <option value="congresales">congresales</option>
+                                <option value="congreso850">congreso 850 </option>
+                                <option value="corrientes961">corrientes 961 </option>
+                                <option value="crisostomo352">crisostomo 352 </option>
+                                <option value="ejercitoymendoza">ejercito y mendoza</option>
+                                <option value="entrerios63">entre rios 63 </option>
+                                <option value="entrerios167">entrerios 167 </option>
+                                <option value="gobernadorcampo">gobernador campo </option>
+                                <option value="gonzalo">gonzalo </option>
+                                <option value="jade">jade </option>
+                                <option value="lamadrid910">lamadrid 910 </option>
+                                <option value="laprida1255">laprida1255 </option>
+                                <option value="laspiedras297">laspiedras 297 </option>
+                                <option value="lavalle84">lavalle 84 </option>
+                                <option value="mendoza480">mendoza 480 </option>
+                                <option value="mendoza1053">mendoza 1053 </option>
+                                <option value="monteagudo731">monteagudo 731 </option>
+                                <option value="monteagudo511">monteagudo 511 </option>
+                                <option value="muñeca458">muñeca 458 </option>
+                                <option value="pjesantillan936">pje santillan 936 </option>
+                                <option value="sanjuan649">san juan 649 </option>
+                                <option value="sanlorenzoyheras">san lorenzo y heras </option>
+                                <option value="santiago48">santiago 48 </option>
+                                <option value="santiago671">santiago 671</option>
+
+                            </select>
+                        </div>
+                        <div class="col-12 py-3"></div>
+                        <td  colspan="2"><input class="archivoselector"  type="file" name="archivo"></td>
+                        <div class="col-12 py-3">
+                   <input class="botonmes" type="submit" value="subir" name="subir">
+                    </div>
+                    </div>
 
 
 
+                   
+                </div>
 
-                        </select>
-                    </tr>
-                    <tr>
-                    </tr>
-                    <tr>
-                        <td colspan="2"><input type="file" name="archivo"></td>
-                    <tr>
-                        <td>
-                        <td><input type="submit" value="subir" name="subir"></td>
+       
+      
+        </form>
 
-                    </tr>
-                </table>
-            </form>
+
         </div>
 
         <!-- tabla  -->
-       
 
 
-            <!-- cabecera para editar -->
-            <div class="tablaexpensa text-center py-5 mb-5">
-                
-                <table>
+
+        <!-- cabecera para editar -->
+        <div class="tablaexpensa text-center py-5 mb-5">
+
+            <table>
 
 
-            </div>
-            <h2 class="titulo6-SobreNosotros">ADMIN</h2>
-            <thead>
-                <tr>
-                    <th>Mes de la Expensa</th>
-                    <th>Expensa</th>
-                </tr>
-            </thead>
+        </div>
+        <h2 class="nombreMes">ADMINISTRACION</h2>
+        <thead>
+            <tr>
+                <th>Mes de la Expensa</th>
+                <th>Expensa</th>
+            </tr>
+        </thead>
 
-            <?php
+        <?php
        
         $db=new Conect_MySql();
             $sql = "select*from $edificioList";
             $query = $db->execute($sql);
             while($datos=$db->fetch_row($query)){?>
-            <tr>
-                <td class="list"><?php echo $datos['titulo']; ?></td>
-                <!-- ingresa el nombre de la pagina del edificio -->
-                <!-- ingresa nombre_archivo para que parezaca el nombre -->
-                <td class="holamunndo"><a
-                        href="admin.php?id=<?php echo $datos['id_documento']?>"><?php echo $datos['nombre_archivo']; ?></a>
-                </td>
-            </tr>
+        <tr>
+            <td class="list">
+                <?php echo $datos['titulo']; ?>
+            </td>
+            <!-- ingresa el nombre de la pagina del edificio -->
+            <!-- ingresa nombre_archivo para que parezaca el nombre -->
+            <td class="holamunndo"><a href="admin.php?id=<?php echo $datos['id_documento']?>">
+                    <?php echo $datos['nombre_archivo']; ?>
+                </a>
+            </td>
+        </tr>
 
-            <?php  } ?>
+        <?php  } ?>
 
         </table>
 
         <!-- indice -->
 
-        <h2>Expensas del Mes junio</h2>
+
         <?php
       
         $db=new Conect_MySql();
@@ -228,7 +280,7 @@ if (isset($_POST['subir'])) {
         Seccion Navbar
          
 -------------------------------------------  -->
-      
+
         <nav id="Menu-Barra" class="navbar navbar-dark bg-secondary navbar-expand-md">
 
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Menu-Principal"
@@ -679,7 +731,7 @@ if (isset($_POST['subir'])) {
                             <p class="Parrafo-Ayuda">¡¡Por cualquier Consulta nos Puedes Mandar un Whatsapp Presionado
                                 el
                                 Siguiente Boton!!</p>
-                            <a href="https://wa.me/5493816641412?text= Página Webº Realice su Consulta: "
+                            <a href="https://wa.me/5493815856612?text= Página Webº Realice su Consulta: "
                                 target="_blank" class="btn btn-secondary ">Mandar un Whatsapp</a>
                         </div>
                     </div>
@@ -1208,57 +1260,69 @@ if (isset($_POST['subir'])) {
             for (let i = 0; i < arr.length; i++) {
                 arr[i].addEventListener('click', function () {
                     if (arr[i].id === 'wts-plomeria') {
-                        celu = '5493815834085';
+                        celu = '5493816103354';
                         tituloWsp.innerHTML = 'Plomero';
                         titleWsp.value = 'Plomero';
                         cardwsp.classList = 'card-plomero';
                     } else if (arr[i].id === 'wts-gasista') {
-                        celu = '5493815834085';
+                        celu = '5493815756579';
                         tituloWsp.innerHTML = 'Gasista';
                         cardwsp.classList = 'card-gasista';
+                        titleWsp.value = 'Gasista';
                     } else if (arr[i].id === 'wts-pintor') {
-                        celu = '5493816641412';
+                        celu = '5493815851746';
                         tituloWsp.innerHTML = 'Pintor';
                         cardwsp.classList = 'card-pintor';
+                        titleWsp.value = 'Pintor';
                     } else if (arr[i].id === 'wts-cerrajero') {
-                        celu = '5493815834085';
+                        celu = '5493813361004';
                         tituloWsp.innerHTML = 'Cerrajero';
                         cardwsp.classList = 'card-cerrajero2';
+                        titleWsp.value = 'Cerrajero';
                     } else if (arr[i].id === 'wts-electricista') {
-                        celu = '5493815834085';
+                        celu = '5493813424619';
                         tituloWsp.innerHTML = 'Electricista';
                         cardwsp.classList = 'card-electricista';
+                        titleWsp.value = 'Electricista';
                     } else if (arr[i].id === 'wts-herrero') {
-                        celu = '5493815834085';
+                        celu = '5493815418999';
                         tituloWsp.innerHTML = 'Herrero';
                         cardwsp.classList = 'card-herrero';
+                        titleWsp.value = 'Herrero';
                     } else if (arr[i].id === 'wts-tecnicoPortero') {
-                        celu = '5493815834085';
+                        celu = '5493814466037';
                         tituloWsp.innerHTML = 'Técnico Portero ';
                         cardwsp.classList = 'card-tecnicoPortero';
+                        titleWsp.value = 'Tecnico Portero';
                     } else if (arr[i].id === 'wts-fumigador') {
-                        celu = '5493815834085';
+                        celu = '5493814123982';
                         tituloWsp.innerHTML = 'Fumigador';
                         cardwsp.classList = 'card-fumigador';
+                        titleWsp.value = 'Fumigador';
                     } else if (arr[i].id === 'wts-cerrajeroDos') {
-                        celu = '5493815834085';
+                        celu = '';
                         tituloWsp.innerHTML = 'Cerrajero';
                         cardwsp.classList = 'card-cerrajero1';
+                        titleWsp.value = 'Cerrajero';
                     } else if (arr[i].id === 'wts-ingenieroElectrico') {
-                        celu = '5493815834085';
+                        celu = '5493816342721';
                         tituloWsp.innerHTML = 'Ingeniero Electrico';
                         cardwsp.classList = 'card-electricistaing';
+                        titleWsp.value = 'Ingeniero Electrico';
                     } else if (arr[i].id === 'wts-ascensores') {
-                        celu = '5493815834085';
+                        celu = '5493814800076';
                         tituloWsp.innerHTML = 'Ascensor';
                         cardwsp.classList = 'card-ascensor';
+                        titleWsp.value = 'Ascensor';
                     } else if (arr[i].id === 'wts-albañileria') {
-                        celu = '5493815834085';
+                        celu = '5493815367251';
                         tituloWsp.innerHTML = 'Albañileria';
+                        titleWsp.value = 'Albañileria';
                     } else if (arr[i].id === 'wts-electricista') {
-                        celu = '5493815834085';
+                        celu = '5493813424619';
                         tituloWsp.innerHTML = 'Electricista';
                         cardwsp.classList = 'card-ascensor';
+                        titleWsp.value = 'Electricista';
                     }
 
                     console.log(titleWsp.value);
@@ -1280,7 +1344,7 @@ if (isset($_POST['subir'])) {
                     "%0A Edificio: %0A" + inputedificios + "  %0A%0AMensaje: %0A" + textmensaje + "%0A";
                 window.open(url);
 
-                $.post('prueba.php', {
+                $.post('./prueba.php', {
                     "empleado": titleWsp.value,
                     "name": inputnames,
                     "edificio": inputedificios,
@@ -1288,7 +1352,6 @@ if (isset($_POST['subir'])) {
                 }, function (data) {
                     console.log('procesamiento finalizado', data);
                 });
-
             }
         </script>
 

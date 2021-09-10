@@ -19,17 +19,17 @@ try {
     //Server settings
     $mail->SMTPDebug = 0;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtp-mail.outlook.com';                    // Set the SMTP server to send through
+    $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'alexis_b13@live.com.ar';                     // SMTP username
-    $mail->Password   = '';                               // SMTP password
+    $mail->Username   = 'trayanjosuetrayan@gmail.com';                     // SMTP username
+    $mail->Password   = 'Sanmartink3';                               // SMTP password
     $mail->SMTPSecure = 'tls';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
     //{empleado,nombreDep,edifciodep,trabajoQq}
     
     //Recipients
-    $mail->setFrom('alexis_b13@live.com.ar', $edificio_nombre);
-    $mail->addAddress('quasirsgs@hotmail.com');     // Add a recipient
+    $mail->setFrom('trayanjosuetrayan@gmail.com', $edificio_nombre);
+    $mail->addAddress('estebantrayan@gmail.com');     // Add a recipient
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML

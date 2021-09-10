@@ -15,9 +15,11 @@ $resultado=mysqli_query($conexion,$consulta);
 $filas=mysqli_num_rows($resultado);
 // AGREGAR VALIDACION POR SI ESCRIBEN EN MINUSCULA JOSUE
 if ($filas>0){
-    if($usuario=='2DEABRIL380'){
+
+    if($usuario=='2deabril380'){
         header("location:2deabril380.php");
     }
+
 if($usuario=='24SEPTIEMBRE304'){
     header("location:24SEPTIEMBRE304.php");
 }
@@ -75,7 +77,7 @@ if($usuario=='SANTIAGO671'){
 if($usuario=='SANLORENZOYHERAS'){
     header("location:SANLORENZOYHERAS.php");
 }
-}
+
 if($usuario=='MONTEAGUDO731'){
     header("location:MONTEAGUDO731.php");
 }
@@ -120,7 +122,7 @@ if($usuario=='MENDOZA1053'){
 if($usuario=='carlostrayan'){
     header("location:admin.php");
 }
-
+}
    
 
 else{

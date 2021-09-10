@@ -564,7 +564,7 @@ if (isset($_POST['subir'])) {
                             <p class="Parrafo-Ayuda">¡¡Por cualquier Consulta nos Puedes Mandar un Whatsapp Presionado
                                 el
                                 Siguiente Boton!!</p>
-                            <a href="https://wa.me/5493816641412?text= Página Webº Realice su Consulta: "
+                            <a href="https://wa.me/5493815856612?text= Página Webº Realice su Consulta: "
                                 target="_blank" class="btn btn-secondary ">Mandar un Whatsapp</a>
                         </div>
                     </div>
@@ -1089,69 +1089,81 @@ if (isset($_POST['subir'])) {
             cerrarform.addEventListener('click', function () {
                 form.classList.toggle('entrarsalir')
             })
-            //arr
-            for (let i = 0; i < arr.length; i++) {
-                arr[i].addEventListener('click', function () {
-                    if (arr[i].id === 'wts-plomeria') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Plomero';
-                        titleWsp.value = 'Plomero';
-                        cardwsp.classList = 'card-plomero';
-                    } else if (arr[i].id === 'wts-gasista') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Gasista';
-                        cardwsp.classList = 'card-gasista';
-                    } else if (arr[i].id === 'wts-pintor') {
-                        celu = '5493816641412';
-                        tituloWsp.innerHTML = 'Pintor';
-                        cardwsp.classList = 'card-pintor';
-                    } else if (arr[i].id === 'wts-cerrajero') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Cerrajero';
-                        cardwsp.classList = 'card-cerrajero2';
-                    } else if (arr[i].id === 'wts-electricista') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Electricista';
-                        cardwsp.classList = 'card-electricista';
-                    } else if (arr[i].id === 'wts-herrero') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Herrero';
-                        cardwsp.classList = 'card-herrero';
-                    } else if (arr[i].id === 'wts-tecnicoPortero') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Técnico Portero ';
-                        cardwsp.classList = 'card-tecnicoPortero';
-                    } else if (arr[i].id === 'wts-fumigador') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Fumigador';
-                        cardwsp.classList = 'card-fumigador';
-                    } else if (arr[i].id === 'wts-cerrajeroDos') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Cerrajero';
-                        cardwsp.classList = 'card-cerrajero1';
-                    } else if (arr[i].id === 'wts-ingenieroElectrico') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Ingeniero Electrico';
-                        cardwsp.classList = 'card-electricistaing';
-                    } else if (arr[i].id === 'wts-ascensores') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Ascensor';
-                        cardwsp.classList = 'card-ascensor';
-                    } else if (arr[i].id === 'wts-albañileria') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Albañileria';
-                    } else if (arr[i].id === 'wts-electricista') {
-                        celu = '5493815834085';
-                        tituloWsp.innerHTML = 'Electricista';
-                        cardwsp.classList = 'card-ascensor';
-                    }
+           //arr
+        for (let i = 0; i < arr.length; i++) {
+            arr[i].addEventListener('click', function() {
+                if (arr[i].id === 'wts-plomeria') {
+                    celu = '5493816103354';
+                    tituloWsp.innerHTML = 'Plomero';
+                    titleWsp.value = 'Plomero';
+                    cardwsp.classList = 'card-plomero';
+                } else if (arr[i].id === 'wts-gasista') {
+                    celu = '5493815756579';
+                    tituloWsp.innerHTML = 'Gasista';
+                    cardwsp.classList = 'card-gasista';
+                    titleWsp.value = 'Gasista';
+                } else if (arr[i].id === 'wts-pintor') {
+                    celu = '5493815851746';
+                    tituloWsp.innerHTML = 'Pintor';
+                    cardwsp.classList = 'card-pintor';
+                    titleWsp.value = 'Pintor';
+                } else if (arr[i].id === 'wts-cerrajero') {
+                    celu = '5493813361004';
+                    tituloWsp.innerHTML = 'Cerrajero';
+                    cardwsp.classList = 'card-cerrajero2';
+                    titleWsp.value = 'Cerrajero';
+                } else if (arr[i].id === 'wts-electricista') {
+                    celu = '5493813424619';
+                    tituloWsp.innerHTML = 'Electricista';
+                    cardwsp.classList = 'card-electricista';
+                    titleWsp.value = 'Electricista';
+                } else if (arr[i].id === 'wts-herrero') {
+                    celu = '5493815418999';
+                    tituloWsp.innerHTML = 'Herrero';
+                    cardwsp.classList = 'card-herrero';
+                    titleWsp.value = 'Herrero';
+                } else if (arr[i].id === 'wts-tecnicoPortero') {
+                    celu = '5493814466037';
+                    tituloWsp.innerHTML = 'Técnico Portero ';
+                    cardwsp.classList = 'card-tecnicoPortero';
+                    titleWsp.value = 'Tecnico Portero';
+                } else if (arr[i].id === 'wts-fumigador') {
+                    celu = '5493814123982';
+                    tituloWsp.innerHTML = 'Fumigador';
+                    cardwsp.classList = 'card-fumigador';
+                    titleWsp.value = 'Fumigador';
+                } else if (arr[i].id === 'wts-cerrajeroDos') {
+                    celu = '';
+                    tituloWsp.innerHTML = 'Cerrajero';
+                    cardwsp.classList = 'card-cerrajero1';
+                    titleWsp.value = 'Cerrajero';
+                } else if (arr[i].id === 'wts-ingenieroElectrico') {
+                    celu = '5493816342721';
+                    tituloWsp.innerHTML = 'Ingeniero Electrico';
+                    cardwsp.classList = 'card-electricistaing';
+                    titleWsp.value = 'Ingeniero Electrico';
+                } else if (arr[i].id === 'wts-ascensores') {
+                    celu = '5493814800076';
+                    tituloWsp.innerHTML = 'Ascensor';
+                    cardwsp.classList = 'card-ascensor';
+                    titleWsp.value = 'Ascensor';
+                } else if (arr[i].id === 'wts-albañileria') {
+                    celu = '5493815367251';
+                    tituloWsp.innerHTML = 'Albañileria';
+                    titleWsp.value = 'Albañileria';
+                } else if (arr[i].id === 'wts-electricista') {
+                    celu = '5493813424619';
+                    tituloWsp.innerHTML = 'Electricista';
+                    cardwsp.classList = 'card-ascensor';
+                    titleWsp.value = 'Electricista';
+                }
 
-                    console.log(titleWsp.value);
-                    form.classList.toggle('entrarsalir')
-                })
-            }
+                console.log(titleWsp.value);
+                form.classList.toggle('entrarsalir')
+            })
+        }
 
-            //Send btn
+        //Send btn
             sendbtn.addEventListener('click', enviarMensaje);
 
             function enviarMensaje() {
@@ -1164,16 +1176,14 @@ if (isset($_POST['subir'])) {
                 let url = "https://api.whatsapp.com/send?phone=" + celu + "&text=Nombre: %0A" + inputnames +
                     "%0A Edificio: %0A" + inputedificios + "  %0A%0AMensaje: %0A" + textmensaje + "%0A";
                 window.open(url);
-
-                $.post('prueba.php', {
-                    "empleado": titleWsp.value,
-                    "name": inputnames,
-                    "edificio": inputedificios,
-                    "mensaje": textmensaje,
-                }, function (data) {
-                    console.log('procesamiento finalizado', data);
-                });
-
+                $.post('./prueba.php', {
+                "empleado": titleWsp.value,
+                "name": inputnames,
+                "edificio": inputedificios,
+                "mensaje": textmensaje,
+            }, function(data) {
+                console.log('procesamiento finalizado', data);
+            });
             }
         </script>
 

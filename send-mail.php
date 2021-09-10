@@ -1,5 +1,5 @@
 <?php
- $destino="trayanjosuetrayan@gmail.com";
+ $destino="consorcios.trayan@gmail.com";
  $nombre=$_POST["nombre"];
  $edificio=$_POST["edificio"];;
  $whatsapp=$_POST["Whatsapp"];
@@ -7,5 +7,5 @@
  $mensaje=$_POST["mensaje"];
  $contenido="Nombre: ".$nombre."\nEdidicio: ".$edificio."\nWhatsapp: ".$whatsapp."\nCorreo: ".$correo."\nMensaje: ".$mensaje;
  mail($destino,"Contacto", $contenido);
- header("Location: index.html");
+ header("Location: index.php");
 ?>
